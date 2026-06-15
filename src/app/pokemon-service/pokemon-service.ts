@@ -71,30 +71,74 @@ export class PokemonService {
         type: 'Bug/Fighting',
         heldItem: 'Black Belt',
         description: 'The powerful horned beetle.',
-        image: 'https://pokemondb.net'
+        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Pok%C3%A9mon_Heracross_art.png/250px-Pok%C3%A9mon_Heracross_art.png'
       },
       {
         name: 'Tyranitar',
         type: 'Rock/Dark',
         heldItem: 'Hard Stone',
         description: 'The godzilla like Pokémon.',
-        image: 'https://pokemondb.net'
+        image: 'https://archives.bulbagarden.net/media/upload/thumb/0/09/0248Tyranitar.png/250px-0248Tyranitar.png'
       },
       {
         name: 'Lugia',
         type: 'Psychic/Flying',
         heldItem: 'Twisted Spoon',
         description: 'The guardian of the seas.',
-        image: 'https://pokemondb.net'
+        image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/249.png'
       },
       {
         name: 'Crobat',
         type: 'Poison/Flying',
         heldItem: 'Sharp Beak',
         description: 'The speedy four-winged bat.',
-        image: 'https://pokemondb.net'
+        image: 'https://img.pokemondb.net/artwork/large/crobat.jpg'
       }
     ]);
     
-   
+    hoennPokemon = signal([
+      {
+        name: 'Septile',
+        type: 'Grass',
+        heldItem: 'Focus sash',
+        description: 'The swift forest pokemon.',
+        image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/254.png'
+      },
+      {
+        name: 'Mightyena',
+        type: 'Dark',
+        heldItem: 'Black Glasses',
+        description: 'The black wolf Pokémon.',
+        image: 'https://img.pokemondb.net/artwork/avif/mightyena.avif'
+      },
+      {
+        name: 'Salamence',
+        type: 'Dragon/Flying',
+        heldItem: 'Dragon Fang',
+        description: 'The dragon that finally grew wings.',
+        image: 'https://archives.bulbagarden.net/media/upload/thumb/8/8a/0373Salamence.png/250px-0373Salamence.png'
+      },
+      {
+        name: 'Metagross',
+        type: 'Steel/Psychic',
+        heldItem: 'Metal Coat',
+        description: 'The supercomputer iron leg Pokémon.',
+        image: 'https://static.wikia.nocookie.net/project-polaro-alpha/images/1/18/0376_Shiny_Metagross.png/revision/latest/scale-to-width/360?cb=20250523041137'
+      },
+      {
+        name: 'Crawdaunt',
+        type: 'Water/Dark',
+        heldItem: 'Mystic Water',
+        description: 'The Pokémon most look like Mr. Krabs.',
+        image: 'https://img.pokemondb.net/artwork/avif/crawdaunt.avif'
+      },
+      {
+        name: 'Rayquaza',
+        type: 'Dragon/Flying',
+        heldItem: 'Life Orb',
+        description: 'The ruler of the skies. TEAM SKY!!',
+        image: 'https://img.pokemondb.net/artwork/large/rayquaza.jpg'
+      }
+    ]);
+  
   }
