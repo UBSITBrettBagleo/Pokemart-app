@@ -42,34 +42,59 @@ export class PokemonService {
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLY_dCtUZm6l0EE9DV98LrTBSNRNRMRfUXIw&s'
     },
     {
-      name:'Scizor',
-      type:'Bug/Steel',
-      heldItem:'Metal coat',
-      description:'Cool bug Pokémon.',
-      image:'https://img.pokemondb.net/artwork/large/scizor.jpg'
+      name:'Mewtwo',
+      type:'Psychic',
+      heldItem:'Life Orb',
+      description:'The strongest non-banned Psychic-type in the game.',
+      image:'https://upload.wikimedia.org/wikipedia/en/4/43/Pok%C3%A9mon_Mewtwo_art.png'
       }
     ]);
 
 
     johtoPokemon = signal([
       {
-        name:'Typhlosion',
-        type:'Fire',
-        heldItem:'Charcoal',
-        description:'Starter',
-        image:'...'
-      }
-    ]);
-  
-    
-    hoennPokemon = signal([
+        name:'Scizor',
+        type:'Bug/Steel',
+        heldItem:'Metal coat',
+        description:'Cool bug Pokémon.',
+        image:'https://img.pokemondb.net/artwork/large/scizor.jpg'
+      },
       {
-        name:'Blaziken',
-        type:'Fire/Fighting',
-        heldItem:'Charcoal',
-        description:'Starter',
-        image:'...'
+        name: 'Steelix',
+        type: 'Steel/Ground',
+        heldItem: 'Metal Coat',
+        description: 'The he Iron Snake Pokémon.',
+        image: 'https://archives.bulbagarden.net/media/upload/thumb/2/2a/0208Steelix.png/250px-0208Steelix.png'
+      },
+      {
+        name: 'Heracross',
+        type: 'Bug/Fighting',
+        heldItem: 'Black Belt',
+        description: 'The powerful horned beetle.',
+        image: 'https://pokemondb.net'
+      },
+      {
+        name: 'Tyranitar',
+        type: 'Rock/Dark',
+        heldItem: 'Hard Stone',
+        description: 'The godzilla like Pokémon.',
+        image: 'https://pokemondb.net'
+      },
+      {
+        name: 'Lugia',
+        type: 'Psychic/Flying',
+        heldItem: 'Twisted Spoon',
+        description: 'The guardian of the seas.',
+        image: 'https://pokemondb.net'
+      },
+      {
+        name: 'Crobat',
+        type: 'Poison/Flying',
+        heldItem: 'Sharp Beak',
+        description: 'The speedy four-winged bat.',
+        image: 'https://pokemondb.net'
       }
     ]);
-  
+    
+   
   }
