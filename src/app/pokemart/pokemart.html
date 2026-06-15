@@ -1,1 +1,43 @@
-<p>pokemart works!</p>
+<h2>Pokemart</h2>
+
+@for(item of pokemartService.items(); track item.name){
+
+<p>
+  {{item.name}} - ₱{{item.price}}
+
+  <button
+    (click)="pokemartService.addToCart(item)">
+    Add
+  </button>
+
+</p>
+
+}
+
+<hr>
+
+<h2>Shopping Cart</h2>
+
+@for(cartItem of pokemartService.cart(); track $index){
+
+<p>
+  {{cartItem.name}}
+  - ₱{{cartItem.price}}
+</p>
+
+} @empty {
+
+<p>Cart Empty</p>
+
+}
+
+<hr>
+
+<h3>
+Total: ₱{{ pokemartService.totalPrice() }}
+</h3>
+
+<button
+(click)="pokemartService.clearCart()">
+Checkout
+</button>
