@@ -35,7 +35,7 @@ body {
   }
   
   .pokemon-card {
-    background: white;
+    background: rgb(228, 107, 107);
     width: 250px;
     padding: 15px;
     border-radius: 10px;
