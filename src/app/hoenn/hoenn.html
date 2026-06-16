@@ -1,19 +1,23 @@
-<h1>Hoenn Region</h1>
+<h1 class="page-title">Hoenn Pokémon</h1>
+
+<div class="pokemon-container">
 
 @for (pokemon of pokemonService.hoennPokemon(); track pokemon.name) {
 
-<div class="card">
+<div class="pokemon-card">
 
-  <img [src]="pokemon.image" width="150">
+<img [src]="pokemon.image">
 
-  <h3>{{ pokemon.name }}</h3>
+<h3>{{ pokemon.name }}</h3>
 
-  <p>Type: {{ pokemon.type }}</p>
+<p><strong>Type:</strong> {{ pokemon.type }}</p>
 
-  <p>Held Item: {{ pokemon.heldItem }}</p>
+<p><strong>Held Item:</strong> {{ pokemon.heldItem }}</p>
 
-  <p>{{ pokemon.description }}</p>
+<p>{{ pokemon.description }}</p>
 
-</div> 
+</div>
 
 }
+
+</div>
