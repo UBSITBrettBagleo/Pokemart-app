@@ -1,0 +1,75 @@
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pokemon-card {
+    width: 250px;
+    min-height: 180px;
+    padding: 15px;
+    border: 1px solid #d3b6ee;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #6f9ebe;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pokemon-card h3 {
+    margin-bottom: 10px;
+}
+
+.pokemon-card button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.page-title {
+    text-align: center;
+}
+
+.pokemon-card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.cart-card {
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #68408d;
+    border-radius: 12px;
+    background-color: #d4aeae;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.total {
+    text-align: center;
+    margin-top: 15px;
+}
