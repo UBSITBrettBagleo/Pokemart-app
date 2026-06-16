@@ -12,3 +12,11 @@
     height: 200px;
     object-fit: contain;
   }
+
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
